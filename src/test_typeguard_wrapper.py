@@ -1,13 +1,5 @@
-# from subscripted_generic import Class, Bound
-from typeddict import _normalize_columns
+from .typeddict import CreateOptions
 
 
-def test_typeguard_ignore_wrapper():
-    _normalize_columns(dict(
-        a=dict(
-            filters=dict(b="c"),
-            tile=1
-        )
-    ))
-    # c = Class()
-    # c.meth(Bound, lambda s: Bound())
+def test_tile_extents():
+    CreateOptions(dims={'soma_dim_0': {'tile': 2048}, 'soma_dim_1': {'tile': 2048}})

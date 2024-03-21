@@ -1,7 +1,7 @@
 # typeguard-issues
 Repros of 2 [typeguard] issues:
 
-## 1. `Callable`s with `Optional` args
+## 1. `Callable`s with `Optional` args ([#typeguard#442](https://github.com/agronholm/typeguard/issues/442))
 
 [test_callables.py](src/test_callables.py): passing a `Callable` with `Optional` args to another function, then calling it, results in a `TypeCheckError`:
 
@@ -11,7 +11,7 @@ TypeCheckError: argument "fn" (function) has too many mandatory positional argum
 
 ([Github Actions example][GHA callable])
 
-## 2. `typing_extensions.TypedDict` vs. `typeguard_ignore` wrapper
+## 2. `typing_extensions.TypedDict` vs. `typeguard_ignore` wrapper ([#typeguard#443](https://github.com/agronholm/typeguard/issues/443))
 [test_typeddict.py](src/test_typeddict.py): using `typing_extensions.TypedDict` and a trivial `typeguard_ignore` wrapper results in a `TypeError`:
 
 ```

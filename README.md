@@ -20,5 +20,5 @@ TypeError: TypedDict does not support instance and class checks
 ([Github Actions example][GHA typeddict])
 
 [typeguard]: https://github.com/agronholm/typeguard
-[GHA callable]: https://github.com/ryan-williams/typeguard-issues/actions/runs/8367585496/job/22910240398#step:5:103
-[GHA typeddict]: https://github.com/ryan-williams/typeguard-issues/actions/runs/8367585496/job/22910240398#step:5:121
+[GHA callable]: https://github.com/ryan-williams/typeguard-issues/actions/runs/8367660052/job/22910449378#step:6:92
+[GHA typeddict]: https://github.com/ryan-williams/typeguard-issues/actions/runs/8367660052/job/22910449378#step:6:121
